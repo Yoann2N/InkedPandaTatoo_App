@@ -7,7 +7,11 @@ namespace InkedPandaTatoo_App.Models
 {
     class User
     {
-       
+       public User()
+        {
+            CreatedAt = DateTime.Now;
+            UpdatedAt = DateTime.Now;
+        }
         public int Id { get; set; }
 
        

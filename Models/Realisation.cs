@@ -8,7 +8,11 @@ namespace InkedPandaTatoo_App.Models
 {
     class Realisation
     {
-      
+        public Realisation()
+        {
+            CreatedAt = DateTime.Now;
+            UpdatedAt = DateTime.Now;
+        }
         public int Id { get; set; }
 
         

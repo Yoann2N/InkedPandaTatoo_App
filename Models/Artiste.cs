@@ -9,8 +9,13 @@ namespace InkedPandaTatoo_App.Models
     
         public class Artiste
     {
-
+        public Artiste()
+        {
+            CreatedAt = DateTime.UtcNow;
+            UpdatedAt = DateTime.UtcNow;
+        }
         public int Id { get; set; }
+
 
         
         public string Profession { get; set; }
