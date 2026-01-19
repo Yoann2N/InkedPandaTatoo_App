@@ -9,6 +9,9 @@ namespace InkedPandaTatoo_App.Models
     
         public class Artiste
     {
+        public Artiste()
+        {
+        }
         public Artiste(int id, string profession, string style, string pseudo, string bio, string instagtram, string facebook, string banniereurl, string vignetteurl )
         {
             Id = id;

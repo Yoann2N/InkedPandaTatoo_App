@@ -5,7 +5,7 @@ using System.Text;
 
 namespace InkedPandaTatoo_App.Models
 {
-    class User
+    public class User
     {
         public User()
         {

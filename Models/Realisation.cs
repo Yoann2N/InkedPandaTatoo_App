@@ -7,7 +7,7 @@ using System.Text;
 
 namespace InkedPandaTatoo_App.Models
 {
-    class Realisation
+    public class Realisation
     {
         public Realisation()
         {
@@ -28,10 +28,10 @@ namespace InkedPandaTatoo_App.Models
         public Artiste Artiste { get; set; }
 
         
-        public string Titre { get; set; }
+        public string? Titre { get; set; }
 
        
-        public string Description { get; set; }
+        public string? Description { get; set; }
 
         
         public string ImageUrl { get; set; }
