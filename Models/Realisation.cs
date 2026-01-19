@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Drawing;
 using System.Text;
 
 namespace InkedPandaTatoo_App.Models
@@ -10,8 +11,14 @@ namespace InkedPandaTatoo_App.Models
     {
         public Realisation()
         {
-            CreatedAt = DateTime.Now;
-            UpdatedAt = DateTime.Now;
+        }
+        public Realisation(int id, int artisteid, string titre, String description, string imageurl )
+        {
+            Id = id;
+            ArtisteId = artisteid;
+            Titre = titre;
+            Description = description;
+            ImageUrl = imageurl;
         }
         public int Id { get; set; }
 

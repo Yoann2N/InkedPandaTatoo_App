@@ -7,7 +7,11 @@ namespace InkedPandaTatoo_App.Models
 {
     class User
     {
-       public User(int id, string nom, string email, string password, string prenom, string adresse, string codepostal, string ville, string telephone)
+        public User()
+        {
+            
+        }
+        public User(int id, string nom, string email, string password, string prenom, string adresse, string codepostal, string ville, string telephone)
         {
             Id = id;
             Name = nom;
